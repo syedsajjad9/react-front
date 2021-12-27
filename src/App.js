@@ -13,6 +13,7 @@ function App() {
       <NavBar />
       <Switch>
         {/* <Route exact path="/" component={CodeForInterview} /> */}
+        <Route exact path="/" component={AllUsers} />
         <Route exact path="/all" component={AllUsers} />
         <Route exact path="/add" component={AddUser} />
         <Route exact path="/edit/:id" component={EditUser} />
